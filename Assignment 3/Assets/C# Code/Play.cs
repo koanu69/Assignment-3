@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Die : MonoBehaviour
+public class Play : MonoBehaviour
 {
     public void Playgame()
     {
-        SceneManager.LoadScene("Main");
+       SceneManager.LoadScene("Tutorial");
     }
 }
